@@ -1,0 +1,13 @@
+# Maven #
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
+/hs_err_pid21256.log
+/wangdh.learner.javaweb.rar
