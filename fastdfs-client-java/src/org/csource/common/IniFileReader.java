@@ -133,6 +133,7 @@ public class IniFileReader {
 		return values;
 	}
 
+	@SuppressWarnings("unchecked")
 	private void loadFromFile(String conf_filename) throws FileNotFoundException, IOException {
 		// 问题说明 使用中发现原来客户端打jar包后，在另一个项目中引用，另一个项目打jar包后运行时找不到客户端配置文件
 		String name;
